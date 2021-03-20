@@ -4,7 +4,7 @@
 
 LedControl lc=LedControl(11,12,10,1); 
 
-int slepp = 250;  
+int sleep = 200;  
 
 byte L_1[8] = {  
   B00000000,
@@ -25,7 +25,7 @@ void setup() {
 
 void loop(){
   def_1();   
-  delay(slepp);     
+  delay(sleep);     
  
 }
 
